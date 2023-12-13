@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="projet_progra_objet.Teachernew"
+             x:Class="projet_progra_objet.buttons_projet.Teachernew"
              Title="Teachernew">
     <VerticalStackLayout>
         <Label 
