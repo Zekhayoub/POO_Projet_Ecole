@@ -5,8 +5,9 @@
              Title="Studentnew">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="page de création pour les students"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
     </VerticalStackLayout>
 </ContentPage>

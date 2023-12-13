@@ -5,5 +5,6 @@ public partial class Studentnew : ContentPage
 	public Studentnew()
 	{
 		InitializeComponent();
+		
 	}
 }
