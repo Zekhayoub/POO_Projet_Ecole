@@ -31,7 +31,11 @@
                 Text="Add Student" 
                 Clicked="OnAddStudentclicked" 
                 HorizontalOptions="Center" />
-        
+            <Button 
+                x:Name="AddTeacherbttn" 
+                Text="Add Teacher" 
+                Clicked="OnAddTeacherclicked" 
+                HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
 

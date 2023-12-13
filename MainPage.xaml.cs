@@ -20,6 +20,12 @@ public partial class MainPage : ContentPage
 		Navigation.PushAsync(Pagestudent);
 		
     } 
+    private void OnAddTeacherclicked(object sender, EventArgs e)
+	{	
+		var Pageteacher = new Teachernew();
+		Navigation.PushAsync(Pageteacher);
+		
+    } 
 	// }
 	// private void OnAddActivityClicked(object sender, EventArgs e)
 	// {File.WriteAllText(_fileName, TextEditor.Text);
