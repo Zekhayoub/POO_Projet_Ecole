@@ -14,7 +14,7 @@ public partial class MainPage : ContentPage
 		
 	}
 
-	private void OnAddStudentClicked(object sender, EventArgs e)
+	private void OnAddStudentclicked(object sender, EventArgs e)
 	{	
 		var Pagestudent = new Studentnew();
 		Navigation.PushAsync(Pagestudent);
