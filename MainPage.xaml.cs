@@ -4,9 +4,12 @@ using projet_progra_objet.buttons_projet;
 namespace projet_progra_objet;
 
 
+
+
+
 public partial class MainPage : ContentPage
 {
-	string _fileName = Path.Combine(FileSystem.AppDataDirectory, "base_de_données.txt");
+	
 
 	public MainPage()
 	{

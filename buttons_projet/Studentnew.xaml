@@ -4,10 +4,12 @@
              x:Class="projet_progra_objet.buttons_projet.Studentnew"
              Title="Studentnew">
     <VerticalStackLayout>
-        <Label 
-            Text="page de création pour les students"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Editor x:Name="TextEditor"
+                Placeholder="entrer votre nouvelle activitée :"
+                Text="{Binding Text}"
+                HeightRequest="100" />
+        <Button Text="Save"
+            Clicked="SaveButton_Clicked" />
 
     </VerticalStackLayout>
 </ContentPage>

@@ -1,4 +1,4 @@
-
+namespace projet_progra_objet.Models;
 public class Appreciation : Eval
 {
     private string appreciation;
