@@ -24,35 +24,41 @@ build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.AppShe
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/buttons_projet/Activitynew.xaml]
+[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/feuille_annexe/Activitynew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.buttons_projet.Activitynew.xaml
-build_metadata.AdditionalFiles.TargetPath = buttons_projet\Activitynew.xaml
-build_metadata.AdditionalFiles.RelativePath = buttons_projet\Activitynew.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Activitynew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Activitynew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Activitynew.xaml
 
-[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/buttons_projet/Bulletinew.xaml]
+[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/feuille_annexe/Bulletinew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.buttons_projet.Bulletinew.xaml
-build_metadata.AdditionalFiles.TargetPath = buttons_projet\Bulletinew.xaml
-build_metadata.AdditionalFiles.RelativePath = buttons_projet\Bulletinew.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Bulletinew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Bulletinew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Bulletinew.xaml
 
-[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/buttons_projet/Evalutionew.xaml]
+[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/feuille_annexe/Evalutionew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.buttons_projet.Evalutionew.xaml
-build_metadata.AdditionalFiles.TargetPath = buttons_projet\Evalutionew.xaml
-build_metadata.AdditionalFiles.RelativePath = buttons_projet\Evalutionew.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Evalutionew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Evalutionew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Evalutionew.xaml
 
-[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/buttons_projet/Studentnew.xaml]
+[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/feuille_annexe/Studentnew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.buttons_projet.Studentnew.xaml
-build_metadata.AdditionalFiles.TargetPath = buttons_projet\Studentnew.xaml
-build_metadata.AdditionalFiles.RelativePath = buttons_projet\Studentnew.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Studentnew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Studentnew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Studentnew.xaml
 
-[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/buttons_projet/Teachernew.xaml]
+[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/feuille_annexe/Teachernew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.buttons_projet.Teachernew.xaml
-build_metadata.AdditionalFiles.TargetPath = buttons_projet\Teachernew.xaml
-build_metadata.AdditionalFiles.RelativePath = buttons_projet\Teachernew.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Teachernew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Teachernew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Teachernew.xaml
+
+[C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/Gardenew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.Gardenew.xaml
+build_metadata.AdditionalFiles.TargetPath = Gardenew.xaml
+build_metadata.AdditionalFiles.RelativePath = Gardenew.xaml
 
 [C:/Users/Baptiste/Desktop/projet program objet/projet_progra_objet/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

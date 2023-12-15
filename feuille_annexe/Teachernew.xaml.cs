@@ -1,8 +1,8 @@
-namespace projet_progra_objet.buttons_projet;
+namespace projet_progra_objet.feuille_annexe;
 
-public partial class Evalutionew : ContentPage
+public partial class Teachernew : ContentPage
 {
-	public Evalutionew()
+	public Teachernew()
 	{
 		InitializeComponent();
 		string appDataPath = FileSystem.AppDataDirectory;

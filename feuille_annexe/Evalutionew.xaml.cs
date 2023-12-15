@@ -1,9 +1,8 @@
-namespace projet_progra_objet.buttons_projet;
+namespace projet_progra_objet.feuille_annexe;
 
-public partial class Studentnew : ContentPage
+public partial class Evalutionew : ContentPage
 {
-	
-	public Studentnew()
+	public Evalutionew()
 	{
 		InitializeComponent();
 		string appDataPath = FileSystem.AppDataDirectory;
@@ -29,5 +28,4 @@ public partial class Studentnew : ContentPage
 
         BindingContext = noteModel;
     }
-
 }
