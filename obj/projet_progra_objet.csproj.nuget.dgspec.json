@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Baptiste\\Desktop\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj": {}
+    "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Baptiste\\Desktop\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj": {
+    "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Baptiste\\Desktop\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj",
+        "projectUniqueName": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj",
         "projectName": "projet_progra_objet",
-        "projectPath": "C:\\Users\\Baptiste\\Desktop\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj",
+        "projectPath": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj",
         "packagesPath": "C:\\Users\\Baptiste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Baptiste\\Desktop\\projet program objet\\projet_progra_objet\\obj\\",
+        "outputPath": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -115,6 +119,10 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -158,6 +166,10 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -196,6 +208,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
