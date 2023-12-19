@@ -1,4 +1,4 @@
-Guilluy Baptiste 22037 et Ayoub Zekhnini 22371
+Guilluy Baptiste 22037 
 
 Rapport de projet : 
 diagramme d'activité: 
