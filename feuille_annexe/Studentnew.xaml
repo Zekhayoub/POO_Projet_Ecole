@@ -5,9 +5,10 @@
              Title="Studentnew">
     <VerticalStackLayout>
         <Editor x:Name="TextEditor"
-                Placeholder="entrer votre nouvelle activitée :"
+                Placeholder="entrer son prénom:"
                 Text="{Binding Text}"
                 HeightRequest="100" />
+        
         <Button Text="Save"
             Clicked="SaveButton_Clicked" />
 

@@ -2,6 +2,10 @@ namespace projet_progra_objet.feuille_annexe;
 using System.IO;
 using System;
 
+
+using projet_progra_objet.Models;
+using System.Text.Json.Nodes;
+
 public partial class Studentnew : ContentPage
 {
     private string directpath; // Déclarer directpath en tant que champ de classe
@@ -64,3 +68,5 @@ public partial class Studentnew : ContentPage
     }
 
 }
+
+
