@@ -1,4 +1,4 @@
-# POO_Projet_Ecole
+# Programmation orientée objet Projet Ecole
 Projet 2023 - École
 
 
