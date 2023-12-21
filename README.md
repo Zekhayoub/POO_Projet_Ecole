@@ -9,3 +9,7 @@ Création d'une interface MAUI permettant:
 - de créer des étudiants, d'ajouter une évaluation pour un cours créer pour un étudiant (cote ou appréciation),
 - d'afficher le bulletin des étudiants
 
+
+### 1. Diagramme UML
+
+### 2. Principes SOLID
