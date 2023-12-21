@@ -33385,11 +33385,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj",
+      "projectUniqueName": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet progra\\POO_Projet_Ecole\\projet_progra_objet.csproj",
       "projectName": "projet_progra_objet",
-      "projectPath": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\projet_progra_objet.csproj",
+      "projectPath": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet progra\\POO_Projet_Ecole\\projet_progra_objet.csproj",
       "packagesPath": "C:\\Users\\Baptiste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet program objet\\projet_progra_objet\\obj\\",
+      "outputPath": "C:\\Users\\Baptiste\\OneDrive - ECAM\\Bureau\\projet progra\\POO_Projet_Ecole\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
