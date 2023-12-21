@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projet_progra_objet.feuille_annexe.Teachernew"
+             Title="Teachernew">
+    <VerticalStackLayout>
+        <Editor x:Name="TextEditor"
+                Placeholder="entrer votre nouvelle activitée :"
+                Text="{Binding Text}"
+                HeightRequest="100" />
+        <Button Text="Save"
+            Clicked="SaveButton_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

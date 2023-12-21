@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projet_progra_objet.Gardenew"
+             Title="Gardenew">
+    <VerticalStackLayout>
+        <Button 
+            x:Name="AddStudentbttn" 
+            Text="Add Student" 
+            Clicked="OnAddStudentclicked" 
+            HorizontalOptions="Center" />
+        <Button 
+            x:Name="AddTeacherbttn" 
+            Text="Add Teacher" 
+            Clicked="OnAddTeacherclicked" 
+            HorizontalOptions="Center" />
+        <Button 
+            x:Name="AddActivityButton" 
+            Text="Add Activity" 
+            Clicked="OnAddActivityClicked" 
+            HorizontalOptions="Center" />
+        <Button 
+            x:Name="AsignEvaltoStudent" 
+            Text="Asign Eval" 
+            Clicked="OnAsignEvaltoStudentClicked" 
+            HorizontalOptions="Center" />
+        <Button 
+            x:Name="DisplayBulletin" 
+            Text="Display Bulletin from student" 
+            Clicked="OnDisplayBulletinClicked" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
