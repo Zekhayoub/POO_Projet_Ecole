@@ -8,71 +8,71 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = projet_progra_objet
-build_property.ProjectDir = C:\Users\ayoub\Desktop\ECAM\Bloc 3\Quadrimestre 1\4. Software engineering 1\1. POO\4. POO_Projet\test_2_POO\projet_progra_objet\
+build_property.ProjectDir = C:\Users\ayoub\Desktop\ECAM\Bloc 3\Quadrimestre 1\4. Software engineering 1\1. POO\4. POO_Projet\POO_Projet_Ecole\Project\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/App.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/AppShell.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/feuille_annexe/Activitynew.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/feuille_annexe/Activitynew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Activitynew.xaml
 build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Activitynew.xaml
 build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Activitynew.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/feuille_annexe/Bulletinew.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/feuille_annexe/Bulletinew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Bulletinew.xaml
 build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Bulletinew.xaml
 build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Bulletinew.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/feuille_annexe/Evalutionew.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/feuille_annexe/Evalutionew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Evalutionew.xaml
 build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Evalutionew.xaml
 build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Evalutionew.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/feuille_annexe/Studentnew.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/feuille_annexe/Studentnew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Studentnew.xaml
 build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Studentnew.xaml
 build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Studentnew.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/feuille_annexe/Teachernew.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/feuille_annexe/Teachernew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.feuille_annexe.Teachernew.xaml
 build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Teachernew.xaml
 build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Teachernew.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/Gardenew.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/Gardenew.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.Gardenew.xaml
 build_metadata.AdditionalFiles.TargetPath = Gardenew.xaml
 build_metadata.AdditionalFiles.RelativePath = Gardenew.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/MainPage.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/Resources/Styles/Colors.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/test_2_POO/projet_progra_objet/Resources/Styles/Styles.xaml]
+[C:/Users/ayoub/Desktop/ECAM/Bloc 3/Quadrimestre 1/4. Software engineering 1/1. POO/4. POO_Projet/POO_Projet_Ecole/Project/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = projet_progra_objet.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

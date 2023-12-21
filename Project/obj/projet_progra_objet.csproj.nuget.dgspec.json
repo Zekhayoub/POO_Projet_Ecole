@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\test_2_POO\\projet_progra_objet\\projet_progra_objet.csproj": {}
+    "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\POO_Projet_Ecole\\Project\\projet_progra_objet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\test_2_POO\\projet_progra_objet\\projet_progra_objet.csproj": {
+    "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\POO_Projet_Ecole\\Project\\projet_progra_objet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\test_2_POO\\projet_progra_objet\\projet_progra_objet.csproj",
+        "projectUniqueName": "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\POO_Projet_Ecole\\Project\\projet_progra_objet.csproj",
         "projectName": "projet_progra_objet",
-        "projectPath": "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\test_2_POO\\projet_progra_objet\\projet_progra_objet.csproj",
+        "projectPath": "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\POO_Projet_Ecole\\Project\\projet_progra_objet.csproj",
         "packagesPath": "C:\\Users\\ayoub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\test_2_POO\\projet_progra_objet\\obj\\",
+        "outputPath": "C:\\Users\\ayoub\\Desktop\\ECAM\\Bloc 3\\Quadrimestre 1\\4. Software engineering 1\\1. POO\\4. POO_Projet\\POO_Projet_Ecole\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
