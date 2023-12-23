@@ -1,2 +1,3 @@
 log : 
 1 création de la classe connection : permet créer un directory et un fichier json dans le répertoire de l'utilisateur + permet de lire et écrire un dico dans un json 
+2
