@@ -1,35 +1,29 @@
-﻿namespace projet_progra_objet;
+using System.ComponentModel;
 
+namespace school.Models;
 public class Person
 {
-    private readonly string firstName;
-    private readonly string lastName;
-    private static List<Person> listPerson = new List<Person>();
+    private string firstname;
+    private string lastname;
 
-    public Person(string firstName, string lastName)
-    {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        listPerson.Add(this);
+    public Person(string firstname, string lastname) {
+        this.firstname = firstname;
+        this.lastname = lastname;
     }
 
-    public string DisplayName()
-    {
-        return firstName + " " + lastName;
+    public string DisplayName() {
+        return String.Format("{0} {1}", firstname, lastname);
     }
 
-    public string FirstName
-    {
-        get { return firstName; }
+    public string Firstname {
+        get {
+            return firstname;
+        }
     }
 
-    public string LastName
-    {
-        get { return lastName; }
-    }
-
-    public static List<Person> ListPerson
-    {
-        get { return listPerson; }
+    public string Lastname {
+        get {
+            return lastname;
+        }
     }
 }

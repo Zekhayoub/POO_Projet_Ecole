@@ -1,8 +1,8 @@
 
 using System;
 using System.Text.Json;
-using projet_progra_objet.feuille_annexe;
-namespace projet_progra_objet;
+using school.feuille_annexe;
+namespace school;
 
 
 
@@ -20,7 +20,7 @@ public partial class Gardenew : ContentPage
     } 
     private void OnAddTeacherclicked(object sender, EventArgs e)
 	{	
-		var Pageteacher = new Teachernew();
+		var Pageteacher = new TeachersPage();
 		Navigation.PushAsync(Pageteacher);
 		
     } 

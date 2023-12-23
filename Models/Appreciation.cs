@@ -1,34 +1,35 @@
-﻿namespace projet_progra_objet;
-public class Appreciation : Eval
+namespace school.Models;
+public class Appreciation : Evaluation
 {
     private string appreciation;
-    private static List<Appreciation> listAppreciation = new List<Appreciation>();
 
-    public Appreciation(string appreciation, string uidActivite, string uidStudent, string uid = "uninitiated") : base(uidActivite, uidStudent, uid)
-    {
-        this.appreciation = appreciation;
-        listAppreciation.Add(this);
+    public Appreciation(Activity activity, string appreciation) : base(activity) {
+        SetAppreciation(appreciation);
     }
 
-    public string AppreciationValue
-    {
-        get { return appreciation; }
-        set { appreciation = value; }
+    public Appreciation(Activity activity) : base(activity) {
+        SetAppreciation("Not Set");
+    }
+
+    public void SetAppreciation(string appreciation) {
+        this.appreciation = appreciation;
     }
 
     public override int Note()
     {
-        if (appreciation == "X") { return 20; }
-        else if (appreciation == "TB") { return 16; }
-        else if (appreciation == "B") { return 12; }
-        else if (appreciation == "C") { return 8; }
-        else if (appreciation == "N") { return 4; }
-        else { return 0; }
-    }
-
-    public static List<Appreciation> ListAppreciation
-    {
-        get { return listAppreciation; }
+        switch(appreciation) {
+            case "X":
+                return 20;
+            case "TB":
+                return 16;
+            case "B":
+                return 12;
+            case "C":
+                return 8;
+            case "N":
+                return 4;
+            default:
+                return 0;
+        }
     }
 }
-

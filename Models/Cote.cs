@@ -1,29 +1,22 @@
-﻿namespace projet_progra_objet;
-
-public class Cote : Eval
+namespace school.Models;
+public class Cote : Evaluation
 {
     private int note;
-    private static List<Cote> listCote = new List<Cote>();
 
-    public Cote(int note, string uidActivite, string uidStudent, string uid = "uninitiated") : base(uidActivite, uidStudent, uid)
-    {
-        this.note = note;
-        listCote.Add(this);
+    public Cote(Activity activity, int note) : base(activity) {
+        SetNote(note);
     }
 
-    public int NoteValue
-    {
-        get { return note; }
-        set { note = value; }
+    public Cote(Activity activity) : base(activity) {
+        SetNote(0);
+    }
+
+    public void SetNote(int note) {
+        this.note = note;
     }
 
     public override int Note()
     {
         return note;
-    }
-
-    public static List<Cote> ListCote
-    {
-        get { return listCote; }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json;
-using projet_progra_objet;
-namespace projet_progra_objet;
+using school;
+namespace school;
 
 
 

@@ -1,18 +1,12 @@
-﻿namespace projet_progra_objet;
+﻿namespace school;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 public class Connection
 {
+    static public string directpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "mauistockapp");
     
-    private readonly string appDataPath;
-    private string directpath;
-    public Connection()
-    {
-        appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-        directpath =  Path.Combine(appDataPath, "mauistockapp");
-    }
     public void CreateDirectory()
     {
             // Determine whether the directory exists.

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace projet_progra_objet;
+namespace school;
 
 public static class MauiProgram
 {

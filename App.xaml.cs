@@ -1,4 +1,4 @@
-﻿namespace projet_progra_objet;
+﻿namespace school;
 
 public partial class App : Application
 {

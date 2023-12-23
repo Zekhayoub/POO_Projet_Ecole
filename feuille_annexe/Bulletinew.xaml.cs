@@ -1,4 +1,4 @@
-namespace projet_progra_objet.feuille_annexe;
+namespace school.feuille_annexe;
 
 public partial class Bulletinew : ContentPage
 {

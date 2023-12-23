@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = school
+build_property.ProjectDir = C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet progra\school\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/feuille_annexe/Activitynew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.feuille_annexe.Activitynew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Activitynew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Activitynew.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/feuille_annexe/Bulletinew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.feuille_annexe.Bulletinew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Bulletinew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Bulletinew.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/feuille_annexe/Evalutionew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.feuille_annexe.Evalutionew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Evalutionew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Evalutionew.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/feuille_annexe/Studentnew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.feuille_annexe.Studentnew.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\Studentnew.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\Studentnew.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/feuille_annexe/TeachersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.feuille_annexe.TeachersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = feuille_annexe\TeachersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = feuille_annexe\TeachersPage.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/Gardenew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.Gardenew.xaml
+build_metadata.AdditionalFiles.TargetPath = Gardenew.xaml
+build_metadata.AdditionalFiles.RelativePath = Gardenew.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Baptiste/OneDrive - ECAM/Bureau/projet progra/school/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = school.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
