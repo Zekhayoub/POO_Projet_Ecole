@@ -10,6 +10,9 @@ namespace AppNote.ViewModels
     {
         private string _noteTitle;
         private string _noteDescription;
+        private string _noteActivity; // Remplacement de Category par Activity
+        private string _noteCote;
+
         private Note _selectedNote;
 
         public string NoteTitle
@@ -38,6 +41,32 @@ namespace AppNote.ViewModels
             }
         }
 
+        public string NoteActivity
+        {
+            get => _noteActivity;
+            set
+            {
+                if (_noteActivity != value)
+                {
+                    _noteActivity = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public string NoteCote
+        {
+            get => _noteCote;
+            set
+            {
+                if (_noteCote != value)
+                {
+                    _noteCote = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
         public Note SelectedNote
         {
             get => _selectedNote;
@@ -48,6 +77,8 @@ namespace AppNote.ViewModels
                     _selectedNote = value;
                     NoteTitle = _selectedNote?.Title;
                     NoteDescription = _selectedNote?.Description;
+                    NoteActivity = _selectedNote?.Activity;
+                    NoteCote = _selectedNote?.NoteCote;
                     OnPropertyChanged();
                 }
             }
@@ -66,6 +97,26 @@ namespace AppNote.ViewModels
             EditNoteCommand = new Command(EditNote);
         }
 
+        private void AddNote(object obj)
+        {
+            int newId = NoteCollection.Count > 0 ? NoteCollection.Max(p => p.Id) + 1 : 1;
+
+            var note = new Note
+            {
+                Id = newId,
+                Title = NoteTitle,
+                Description = NoteDescription,
+                Activity = NoteActivity,
+                NoteCote = NoteCote
+            };
+            NoteCollection.Add(note);
+
+            NoteTitle = string.Empty;
+            NoteDescription = string.Empty;
+            NoteActivity = string.Empty;
+            NoteCote = string.Empty;
+        }
+
         private void EditNote(object obj)
         {
             if (SelectedNote != null)
@@ -78,7 +129,9 @@ namespace AppNote.ViewModels
                         {
                             Id = note.Id,
                             Title = NoteTitle,
-                            Description = NoteDescription
+                            Description = NoteDescription,
+                            Activity = NoteActivity,
+                            NoteCote = NoteCote
                         };
 
                         NoteCollection.Remove(note);
@@ -95,23 +148,9 @@ namespace AppNote.ViewModels
                 NoteCollection.Remove(SelectedNote);
                 NoteTitle = string.Empty;
                 NoteDescription = string.Empty;
+                NoteActivity = string.Empty;
+                NoteCote = string.Empty;
             }
-        }
-
-        private void AddNote(object obj)
-        {
-            int newId = NoteCollection.Count > 0 ? NoteCollection.Max(p => p.Id) + 1 : 1;
-
-            var note = new Note
-            {
-                Id = newId,
-                Title = NoteTitle,
-                Description = NoteDescription,
-            };
-            NoteCollection.Add(note);
-
-            NoteTitle = string.Empty;
-            NoteDescription = string.Empty;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
