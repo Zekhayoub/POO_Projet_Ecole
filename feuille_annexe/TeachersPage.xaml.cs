@@ -7,11 +7,13 @@ public partial class TeachersPage : ContentPage
 	public List<Teacher> AllTeachers {get {
 		return  Teacher.AllTeachers;
 	}}
-	public List<Teacher> teacherlist = Teacher.AllTeachers;
+	public List<Teacher> teacherlist;
+
 
 	public TeachersPage()
 	{
 		Teacher.LoadAll();
+		teacherlist = Teacher.AllTeachers.ToList();
 		InitializeComponent();
 		BindingContext = this;
 	}
