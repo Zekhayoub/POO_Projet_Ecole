@@ -3,9 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="school.MainPage">
 
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+            
+            <Image
+                Source="ecole.png"
+                HeightRequest="185"
+                VerticalOptions="Center"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
 
-    <ScrollView x:Name="Container">
-        
+            <Label
+                Text="Bonjour, bienvenue dans votre application de création d'école virtuelle ! "
+                SemanticProperties.HeadingLevel="Level1"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+
+            <Button 
+                x:Name="cliquerici" 
+                Text="cliquer ici pour commencer" 
+                Clicked="Onpagedegardeclicked" 
+                VerticalOptions="Center" />
+        </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>

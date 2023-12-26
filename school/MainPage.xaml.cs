@@ -6,9 +6,13 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-        Container.Content=new Views.NoteView();
-
     }
+	private void Onpagedegardeclicked(object sender, EventArgs e)
+	{	
+		var Gestionetudiants = new Gestionetudiants();
+		Navigation.PushAsync(Gestionetudiants);
+
+    } 
 
 
 }

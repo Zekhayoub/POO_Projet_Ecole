@@ -395,3 +395,6 @@ C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet_final\school\obj\Debug\net8.0-wi
 C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet_final\school\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet_final\school\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet_final\school\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet_final\school\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\school.sourcelink.json
+C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet_final\school\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ecole.scale-100.png
+C:\Users\Baptiste\OneDrive - ECAM\Bureau\projet_final\school\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ecole.scale-100.png
