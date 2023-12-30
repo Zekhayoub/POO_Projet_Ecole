@@ -9,9 +9,8 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 		BindingContext =new ViewModels.NoteViewModel();
-		NoteViewModel noteViewModel = new NoteViewModel();
-		noteViewModel.Save();
-		// InitializeNotes();
+		
+		
 	}
 	private void Onpagedegardeclicked(object sender, EventArgs e)
 	{	

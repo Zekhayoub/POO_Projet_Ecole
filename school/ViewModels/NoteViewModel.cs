@@ -18,7 +18,7 @@ namespace school.ViewModels
         private string _noteCote;
         private Note _selectedNote;
         public string directpath;
-        // public string filePath;
+        public string filePath;
 
         public string NoteTitle
         {
@@ -91,8 +91,9 @@ namespace school.ViewModels
         public void Save()
         {
             directpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "mauistockapp");
-            CreateDirectory(); // Appeler la méthode <link>CreateDirectory</link> dans le constructeur pour créer le répertoire lors de l'initialisation de la classe <link>Save</link>
-            CreateJsonFile(); // Appeler la méthode <link>CreateJsonFile</link> pour créer le fichier JSON lors de l'initialisation de la classe <link>Save</link>
+            CreateDirectory(); 
+            filePath = Path.Combine(directpath, "base_de_données.json");
+            CreateJsonFile();
         }
         public void CreateDirectory()
         {
@@ -102,26 +103,93 @@ namespace school.ViewModels
                 DirectoryInfo di = Directory.CreateDirectory(directpath);
             }
         }
-        public void CreateJsonFile()
+        private void CreateJsonFile()
         {
-            string filePath = Path.Combine(directpath, "base_de_données.json");
-            if (!File.Exists(filePath))
+            try
             {
-                File.Create(filePath).Close(); // Créer un fichier vide s'il n'existe pas
+                if (!File.Exists(filePath))
+                {
+                    File.Create(filePath).Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Afficher des informations de débogage sur l'exception
+                Console.WriteLine("Exception during file creation: " + ex.Message);
             }
         }
+        private void SaveNotesToFile()
+        {   
+            CreateJsonFile(); 
 
-        public ObservableCollection<Note> NoteCollection { get; set; }
+            if (!string.IsNullOrEmpty(filePath))
+            {
+                if (NoteCollection != null && NoteCollection.Any()) 
+                {
+                    var options = new JsonSerializerOptions { WriteIndented = true };
+                    var jsonString = JsonSerializer.Serialize(NoteCollection, options);
+                    File.WriteAllText(filePath, jsonString);
+                }
+                else
+                {
+                    Console.WriteLine("La collection de notes est vide ou null. Impossible de la sérialiser.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Le chemin du fichier est incorrect. Impossible de sauvegarder les notes.");
+            }
+        }
+        private ObservableCollection<Note> LoadNotesFromFile()
+        {
+            if (File.Exists(filePath))
+            {
+                var jsonString = File.ReadAllText(filePath);
+                if (!string.IsNullOrEmpty(jsonString))
+                {
+                    return JsonSerializer.Deserialize<ObservableCollection<Note>>(jsonString);
+                }
+            }
+            return new ObservableCollection<Note>();
+        }
+        public void InitializeNotes()
+        {
+            NoteCollection = LoadNotesFromFile();
+        }
+
+        
+        public void SaveNotes()
+        {
+            SaveNotesToFile();
+        }
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+        private ObservableCollection<Note> _noteCollection;
+        public ObservableCollection<Note> NoteCollection 
+        { 
+            get => _noteCollection; 
+            set 
+            {
+                _noteCollection = value;
+                OnPropertyChanged(nameof(NoteCollection));
+            }
+        }
+        
         public ICommand AddNoteCommand { get; }
         public ICommand EditNoteCommand { get; }
         public ICommand RemoveNoteCommand { get; }
 
         public NoteViewModel()
         {
-            NoteCollection = new ObservableCollection<Note>();
+            
             AddNoteCommand = new Command(AddNote);
             RemoveNoteCommand = new Command(DeleteNote);
             EditNoteCommand = new Command(EditNote);
+            Save();
+            InitializeNotes();
         }
 
         private void AddNote(object obj)
@@ -142,6 +210,8 @@ namespace school.ViewModels
             NoteDescription = string.Empty;
             NoteActivity = string.Empty;
             NoteCote = string.Empty;
+            SaveNotes();
+            OnPropertyChanged(nameof(NoteCollection)); 
         }
 
         private void EditNote(object obj)
@@ -166,6 +236,8 @@ namespace school.ViewModels
                     }
                 }
             }
+            SaveNotes();
+            OnPropertyChanged(nameof(NoteCollection));
         }
 
         private void DeleteNote(object obj)
@@ -178,40 +250,10 @@ namespace school.ViewModels
                 NoteActivity = string.Empty;
                 NoteCote = string.Empty;
             }
+            SaveNotes();
+            OnPropertyChanged(nameof(NoteCollection));
         }
-        // private void SaveNotesToFile(string filePath)
-        // {
-        //     var json = JsonConvert.SerializeObject(NoteCollection);
-        //     File.WriteAllText(filePath, json);
-        // }
-        // private ObservableCollection<Note> LoadNotesFromFile(string filePath)
-        // {
-        //     if (File.Exists(filePath))
-        //     {
-        //         var json = File.ReadAllText(filePath);
-        //         return JsonConvert.DeserializeObject<ObservableCollection<Note>>(json);
-        //     }
-        //     else
-        //     {
-        //         return new ObservableCollection<Note>();
-        //     }
-        // }
-        // private void InitializeNotes()
-        // {
-        //     NoteCollection = LoadNotesFromFile("path_to_your_file.json");
-        // }
-
         
-        // private void SaveNotes()
-        // {
-        //     SaveNotesToFile(filePath);
-        // }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
     }
 
 }
