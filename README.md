@@ -2,7 +2,7 @@
 Projet 2023 - École
 
 
-Création d'une interface MAUI permettant:
+A faire:
 -  [x] de créer des enseignants,
 -  [ ] de créer des activités,
 -  [ ] de relier les activités aux enseignants,
