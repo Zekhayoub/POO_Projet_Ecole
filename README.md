@@ -27,7 +27,7 @@ En réponse à la demande spécifique du projet, nous avons choisi d'ajouter une
   <img src="images/13.png" >
 </p>
 
-### 2. Diagramme de séquences
+### 2. Diagramme de séquences d'ajout de note depuis la page d'accueil
 <p align="center">
   <img src="images/5.png" >
 </p>
