@@ -1,6 +1,0 @@
-Note Importante sur le code
-
------------------------------------------------
-Journal de Mise à jour
-
-21/12/23 au 25/12/23 : Modification de mon projet Note pour adaptation au projet POO-SCHOOL
