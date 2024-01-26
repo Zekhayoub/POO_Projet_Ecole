@@ -20,7 +20,7 @@ En réponse à la demande spécifique du projet, nous avons choisi d'ajouter une
 ## Diagramme UML
 ### 1.  Diagramme de classes
 <p align="center">
-  <img src="images/12.png" >
+  <img src="images/13.png" >
 </p>
 
 ### 2. Diagramme de séquences
