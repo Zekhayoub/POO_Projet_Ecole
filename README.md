@@ -36,10 +36,10 @@ En ce qui concerne les principes SOLID, nous pouvons aborder le respect du princ
 ### 1. open/closed principle (OCP)
 Le principe Ouvert/Fermé stipule qu'une classe devrait être ouverte à l'extension mais fermée à la modification. Il est facile d'ajouter de nouvelles méthodes dans la classe principale pour étendre les fonctionnalités sans avoir à modifier le code existant. La modification du code existant est rendue complexe, voire quasi impossible à l'extérieur de la classe, en raison de l'utilisation d'attributs privés pour toutes les variables d'instances et du respect de l'encapsulation à tous les niveaux. Ainsi, le principe ouvert/fermé est également suivi, favorisant la flexibilité et la robustesse du système.
 
-De plus par exemple, la possibilité de laisser des commentaires généraux, une fonctionnalité spécifique demandée dans le projet, pourrait être ajoutée via une extension de l'interface pertinente, respectant ainsi le principe OCP. Cette extension peut être implémentée dans une nouvelle classe qui implémente l'interface sans altérer le code existant des managers, démontrant ainsi la capacité du système à évoluer sans modification directe du code de base.
+
 
 ### 2. Inversion de Dépendance (DIP)
-Le principe de l'Inversion de Dépendance (DIP) stipule que les modules de haut niveau ne devraient pas dépendre des modules de bas niveau, mais plutôt des abstractions. Dans votre cas, avec la classe mère INotifyPropertyChanged et les classes filles Note et NoteViewModel, nous pouvons analyser comment ce principe est respecté. 
+Le principe de l'Inversion de Dépendance (DIP) stipule que les modules de haut niveau ne devraient pas dépendre des modules de bas niveau, mais plutôt des abstractions. Dans notre cas, avec la classe mère INotifyPropertyChanged et les classes filles Note et NoteViewModel, nous pouvons analyser comment ce principe est respecté. 
 
 1. **Classe Mère : INotifyPropertyChanged**
 
@@ -47,7 +47,7 @@ La classe mère INotifyPropertyChanged est une interface standard dans le dével
 
 2. **Classes Filles : Note et NoteViewModel**
 
-La classe **Note** peut être considérée comme une classe de bas niveau dans ce contexte. Elle incarne une représentation simple d'une note ou d'une évaluation au sein du système éducatif. Elle est chargée d'implémenter des propriétés spécifiques à la note, 
+La classe **Note** peut être considérée comme une classe de bas niveau dans ce contexte. Elle incarne une représentation simple d'une note ou d'une évaluation au sein du système éducatif. Elle est chargée d'implémenter des propriétés spécifiques à la note. 
 
 
 La classe **NoteViewModel** est principalement utilisée pour modéliser les données d'une note au niveau de l'interface utilisateur. Elle peut contenir des propriétés supplémentaires ou calculées nécessaires à l'affichage dans l'interface graphique. Cette classe agit comme un intermédiaire entre les données brutes de la note (Note) et l'interface utilisateur, fournissant ainsi une structure appropriée pour la gestion des interactions entre la logique métier et la présentation visuelle.
