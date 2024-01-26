@@ -15,7 +15,9 @@ En réponse à la demande spécifique du projet, nous avons choisi d'ajouter une
 
 ![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/0b0ca54c-00da-4c0f-a572-39850fba6d4f)
 
-![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/58d19f4f-2b8b-4216-bf65-2155eb2d0099)
+![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/00664aab-881d-40d0-a777-5877c8045341)
+
+![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/dadb548b-028e-4fe1-9d62-acbf1e872a9b)
 
 
 
