@@ -79,7 +79,7 @@ Dans le contexte de cette implémentation, la classe NoteViewModel remplit le r�
 
 ### Sauvegarde 
 
-Pour enregistrer les différentes notes sur n'importe laquelle des machines, il a été nécessaire de d'abord créer un directory dans le dossier utilisateur de la personne qui utilise l'application et ensuite d'y introduire un fichier json qui servira de base de données.Lorsque ce fichier y est introduit il est nécessaire de d'utiliser la méthode Serialize pour y introduire les informations entrées depuis l'application et d'utiliser une autre méthode pour les deserialize au lancement l'application. (La librairie System.Text.Json étant utilisé car Newton.json n'est pas encore disponible actuellement sur MAUI v8)
+Pour enregistrer les différentes notes sur n'importe laquelle des machines, il a été nécessaire de d'abord créer un directory dans le dossier utilisateur de la personne qui utilise l'application et ensuite d'y introduire un fichier json qui servira de base de données. Lorsque ce fichier y est introduit il est nécessaire d'utiliser la méthode Serialize pour y introduire les informations entrées depuis l'application et d'utiliser une autre méthode pour les deserialize au lancement l'application. (La librairie System.Text.Json étant utilisé car Newton.json n'est pas encore disponible actuellement sur MAUI v8)
 
 
 
