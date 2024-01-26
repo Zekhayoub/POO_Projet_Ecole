@@ -18,6 +18,8 @@ A faire:
 -  [ ] Diagramme UML: 4 points
 -  [ ] Principes SOLID: 4 point
 
+![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/f9971e08-9de0-4794-9076-f8676a880d08)
+![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/0b0ca54c-00da-4c0f-a572-39850fba6d4f)
 
 ### 1. Diagramme UML
 
