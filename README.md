@@ -18,6 +18,12 @@ Le programme permet de simuler une application de gestion d'école. premièremen
 
 ### 1. Diagramme UML
 
+<p align="center">
+
+  <img src="images/5.png" >
+
+</p>
+
 ### 2. Principes SOLID
 Comme principe solide respecté, nous pouvons parler du single responsability principle et de l'open closed principle les autres principes étant respecté puisque non utilisé.
 
