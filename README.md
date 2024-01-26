@@ -53,7 +53,7 @@ La classe **Note** peut être considérée comme une classe de bas niveau dans c
 La classe **NoteViewModel** est principalement utilisée pour modéliser les données d'une note au niveau de l'interface utilisateur. Elle peut contenir des propriétés supplémentaires ou calculées nécessaires à l'affichage dans l'interface graphique. Cette classe agit comme un intermédiaire entre les données brutes de la note (Note) et l'interface utilisateur, fournissant ainsi une structure appropriée pour la gestion des interactions entre la logique métier et la présentation visuelle.
 
 
-## modèle MVC (Modèle-Vue-Contrôleur)
+## Modèle MVC (Modèle-Vue-Contrôleur)
 
 Dans le contexte du projet, nous pouvons analyser comment le modèle MVC est représenté en se basant sur les classes **Note** et **NoteViewModel**.
 
