@@ -22,7 +22,8 @@ En réponse à la demande spécifique du projet, nous avons choisi d'ajouter une
 <p align="center">
   <img src="images/12.png" >
 </p>
-### 2.  Diagramme de séquences
+
+### 2. Diagramme de séquences
 <p align="center">
   <img src="images/5.png" >
 </p>
