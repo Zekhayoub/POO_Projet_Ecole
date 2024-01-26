@@ -22,9 +22,9 @@
                 <Picker Title="Sélectionnez une activité" SelectedItem="{Binding SelectedActivityType}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
-                            <x:String>Informatique</x:String>
-                            <x:String>Physique</x:String>
-                            <x:String>Math</x:String>
+                            <x:String>Informatique [M.dupont]</x:String>
+                            <x:String>Physique [M.Dhen]</x:String>
+                            <x:String>Math [M.Lurkin]</x:String>
                             <!-- Ajoutez d'autres activités selon vos besoins -->
                         </x:Array>
                     </Picker.ItemsSource>
