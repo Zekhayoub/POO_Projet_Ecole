@@ -19,7 +19,7 @@
                 <Editor Placeholder="Enter description here" Text="{Binding NoteDescription}" HeightRequest="100" FontSize="Medium" />
 
                 <!-- Ajout de Picker pour l'activité -->
-                <Picker Title="Sélectionnez une activité" SelectedItem="{Binding NoteActivity}">
+                <Picker Title="Sélectionnez une activité" SelectedItem="{Binding SelectedActivityType}">
                     <Picker.ItemsSource>
                         <x:Array Type="{x:Type x:String}">
                             <x:String>Informatique</x:String>
