@@ -1,7 +1,14 @@
 # Programmation orientée objet Projet Ecole
 Projet 2023 - École
 
+## Description
+ce projet vise à améliorer l'exercice du labo 2 en intégrant une interface moderne grâce à MAUI (Multi-platform App UI). Notre objectif principal est de simplifier la gestion des données liées à un établissement éducatif en permettant la création d'enseignants, d'activités, d'étudiants, et en facilitant la gestion des évaluations. En outre, nous cherchons à offrir une expérience utilisateur fluide en connectant les activités aux enseignants et en générant des bulletins détaillés pour les étudiants.
 
+Les principales fonctionnalités de cette interface MAUI comprennent la création d'enseignants, la définition d'activités éducatives, l'association d'activités à des enseignants, la gestion d'étudiants, l'ajout d'évaluations (sous forme de cotes ou d'appréciations) pour des cours spécifiques, et enfin, l'affichage du bulletin complet des étudiants.
+
+En réponse à la demande spécifique du projet, nous avons choisi d'ajouter une fonctionnalité supplémentaire particulièrement pertinente : la possibilité de laisser des commentaires généraux. Cette fonctionnalité permettra aux utilisateurs d'ajouter des remarques globales et des observations sur les enseignants, les activités ou les étudiants, contribuant ainsi à une communication plus riche et à une compréhension approfondie des performances éducatives.
+
+## Quelques images de notre application
 ![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/f9971e08-9de0-4794-9076-f8676a880d08)
 (image 1)
 ![image](https://github.com/Zekhayoub/POO_Projet_Ecole/assets/124704424/0b0ca54c-00da-4c0f-a572-39850fba6d4f)
